@@ -2,11 +2,21 @@
 
 An intelligent generative art application with a graphical interface that mutates regular photos into decaying, corrupted "fading memory" artwork. Built as an autonomous AI agent loop where a vision model guides an image-to-image pipeline based on continuous training feedback.
 
+![Application Interface](images/ui_preview.png)
+
 ## How it works
 1. **Input:** You upload any image into the modern dark-themed GUI.
 2. **Analysis:** The local multi-modal model **Llava** scans the image, reads its past experience files, and generates a decay text prompt.
 3. **Mutation:** **Stable Diffusion (v1.5)** completely redraws objects, melting shapes and breaking patterns to fit the "Still Life decay" aesthetics.
 4. **Reinforcement Learning:** You rate the output using "Awesome" or "Meh" buttons. The application automatically appends successful mutations into its persistent text memory, refining future decisions.
+
+---
+
+## Example of Mutation (Before / After)
+
+| Original Photo | Mutated Still Life Result |
+| -------------- | ------------------------- |
+| ![Before](images/before.jpg) | ![After](images/after.jpg) |
 
 ---
 
