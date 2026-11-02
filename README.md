@@ -16,7 +16,7 @@ An intelligent generative art application with a graphical interface that mutate
 
 | Original Photo | Mutated Still Life Result |
 | -------------- | ------------------------- |
-| ![Before](images/before.jpg) | ![After](images/after.jpg) |
+| ![Before](images/before1.jpg) | ![After](images/after1.jpg) |
 
 ---
 
